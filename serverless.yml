@@ -1,0 +1,11 @@
+component: scf
+name: ap-chengdu_default_scf_cicd_test
+inputs:
+  name: scf-cicd-test
+  src:
+    src: ./
+  runtime: Python3.7
+  region: ap-chengdu
+  handler: index.main_handler
+  memorySize: 3072
+  timeout: 300
